@@ -74,7 +74,7 @@ typedef NSDictionary<NSString *, NSString *> *_Nullable OIDTokenEndpointParamete
 /*! @internal
     @brief Unavailable. This class should not be initialized.
  */
-- (nullable instancetype)init NS_UNAVAILABLE;
+- (instancetype)init NS_UNAVAILABLE;
 
 /*! @brief Convenience method for creating an authorization service configuration from an OpenID
         Connect compliant issuer URL.
