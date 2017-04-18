@@ -109,7 +109,7 @@ static NSString *const kTokenExchangeRequestException =
 
 #pragma mark - Initializers
 
-- (nullable instancetype)init
+- (instancetype)init
     OID_UNAVAILABLE_USE_INITIALIZER(@selector(initWithRequest:parameters:));
 
 - (nullable instancetype)initWithRequest:(OIDAuthorizationRequest *)request
